@@ -22,6 +22,7 @@ public class EncoderController {
 		String result = textEncoder.decode(text);
 		encodeTextField.setText(result);
 	}
+	//wm,kdjebhfgfre
 	@FXML
 	protected void handleEncodeButton(ActionEvent event)
 	{
