@@ -16,10 +16,10 @@ public class Main extends Application {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("Layout.fxml"));
 
 			AnchorPane root = (AnchorPane) loader.load();
+			//fx:controller="com.fxtest.MyController";
+
 
 			EncoderController controller = loader.getController();
-
-			controller.setTextEncoder(new NewEncoder());
 
 			Scene scene = new Scene(root, 600, 400);
 			primaryStage.setScene(scene);
